@@ -1,16 +1,14 @@
-# Friendly Snippets
+# Neovim Snippets
 
 Snippets collection for a set of different programming languages.
-
-The only goal is to have one community driven repository for all kinds of
-snippets in all programming languages, this way you can have it all in one
-place.
+This has been forked from rafamadriz/friendly-snippets with a few edits to make the snippets work the way I want them.
 
 ## Install
 
 Use your plugin manager of choice, e.g.
 
 ### With Lazy.nvim
+**For the original repository**
 
 ```lua
 { "rafamadriz/friendly-snippets" }
@@ -100,17 +98,6 @@ require("luasnip.loaders.from_vscode").load {
 ### JS
 
 ![JS gif](https://user-images.githubusercontent.com/67771985/131255342-e393165a-e4b1-401e-9084-a782b9dd3fef.gif)
-
-## TODO
-
-- Add all included snippets to the
-  [Wiki](https://github.com/rafamadriz/friendly-snippets/wiki).
-
-## Thanks to all contributors
-
-<a href="https://github.com/rafamadriz/friendly-snippets/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=rafamadriz/friendly-snippets" />
-</a>
 
 ## Credits
 

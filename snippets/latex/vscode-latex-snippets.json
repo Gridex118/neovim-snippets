@@ -126,7 +126,7 @@
     },
     "Itemize": {
         "prefix": ["- ", "\\itemize", "itemize"],
-        "body": ["\\begin{itemize}", "\t\\item $1", "\\end{itemize}$0"]
+        "body": ["\\begin{itemize}", "\t$1", "\\end{itemize}$0"]
     },
     "Up": {
         "prefix": ["to", "\\to"],
