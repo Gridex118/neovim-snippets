@@ -1,5 +1,5 @@
 {
-    "name": "friendly-snippets",
+    "name": "neovim-snippets",
     "engines": {
         "vscode": "^1.11.0"
     },
@@ -19,6 +19,10 @@
             {
                 "language": ["license"],
                 "path": "./snippets/license.json"
+            },
+            {
+                "language": ["clojure"],
+                "path": "./snippets/clojure.json"
             },
             {
                 "language": "c",

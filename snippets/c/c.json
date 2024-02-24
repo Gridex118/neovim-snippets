@@ -219,12 +219,12 @@
     },
     "Function ...": {
         "prefix": "fun",
-        "body": ["${2:void} ${1:fun}(${3:void})$0"],
+        "body": ["${1:void} ${2:fun}(${3:void})$0"],
         "description": "Make a function declaration/definition/pointer"
     },
     "Function definition": {
         "prefix": "func",
-        "body": ["${2:void} ${1:fun}(${3:void})", "{$0", "}"],
+        "body": ["${1:void} ${2:fun}(${3:void}) {", "\t$0", "}"],
         "description": "Define a function"
     },
     "typedef": {
@@ -284,7 +284,7 @@
     },
     "printf": {
         "prefix": "printf",
-        "body": ["printf(\"${1:%s}\\n\"$2)$0"],
+        "body": ["printf(\"${1:%s}\"$2)$0"],
         "description": "printf() snippet"
     },
     "fprintf": {
