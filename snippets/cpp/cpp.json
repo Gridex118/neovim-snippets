@@ -152,7 +152,7 @@
     },
     "namespace": {
         "prefix": "namespace",
-        "body": ["namespace ${1:MyNamespace} {", "\t$0", "}"]
+        "body": ["namespace ${1:MyNamespace} {", "\n\t$0", "\n}"]
     },
     "#ifdef": {
         "prefix": "#ifdef",
@@ -265,6 +265,16 @@
             "}"
         ],
         "description": "A standard main function for a C++ program"
+    },
+    "Minimal main function template": {
+        "prefix": "mainn",
+        "body": [
+            "int main(void) {",
+            "\t$1",
+            "\treturn 0;",
+            "}"
+        ],
+        "description": "A minimal main function for a C++ program"
     },
     "#guard": {
       "prefix": "#guard",
